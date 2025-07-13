@@ -12,7 +12,7 @@ from aiogram import F
 logging.basicConfig(level=logging.INFO)
 
 # Замените "YOUR_BOT_TOKEN" на токен, который вы получили от BotFather
-API_TOKEN = ''
+API_TOKEN = '7830776785:AAHRkdLMxoju_6WAeSnrLCwbfWaRd4H2nM8'
 
 # Зададим имя базы данных
 DB_NAME = 'quiz_bot.db'
