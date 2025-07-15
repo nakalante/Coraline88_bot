@@ -162,7 +162,7 @@ async def create_table():
 # Хэндлер на команду /help
 @dp.message(Command("help"))
 async def cmd_start(message: types.Message):
-    await message.answerC
+    await message.answer('/start - начать взаимодействие с ботомl \n/help - открыть помощь\n/quiz - начать игру')
 
 # Запуск процесса поллинга новых апдейтов
 async def main():
